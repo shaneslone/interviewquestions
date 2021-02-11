@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays/arrayquestions/arrayquestions.iml" filepath="$PROJECT_DIR$/Arrays/arrayquestions/arrayquestions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/interviewquestions.iml" filepath="$PROJECT_DIR$/.idea/interviewquestions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays/isunique/isunique.iml" filepath="$PROJECT_DIR$/Arrays/isunique/isunique.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays/permutation/permutation.iml" filepath="$PROJECT_DIR$/Arrays/permutation/permutation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays/urlify/urlify.iml" filepath="$PROJECT_DIR$/Arrays/urlify/urlify.iml" />
+    </modules>
+  </component>
+</project>

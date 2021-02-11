@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="permutation">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Arrays/permutation/src/permutation.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
