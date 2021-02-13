@@ -11,18 +11,16 @@ public class Main {
 	test.appendToTail(5);
 	test.appendToTail(2);
 	test.appendToTail(10);
-	RemoveDups remover = new RemoveDups();
-	Node cur = test;
-	while(cur != null){
-        System.out.print(cur.data + " -> ");
-        cur = cur.next;
-    }
-	remover.removeDups(test);
-	cur = test;
-	System.out.println();
-	while(cur != null){
-	    System.out.print(cur.data + " -> ");
-	    cur = cur.next;
-	}
+
+	test.print();
+
+	test.removeDups();
+
+	test.print();
+
+	test.removeNode(test.next);
+
+	test.print();
+
     }
 }

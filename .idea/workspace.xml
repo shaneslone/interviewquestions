@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="300a4455-4002-4db5-abec-47e049b28f75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/interviewquestions.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/isunique.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/permutation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arrays/isunique/isunique.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arrays/permutation/permutation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/LinkedList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/interviewquestions.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/lambdaschool/linkedlistquestions/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/lambdaschool/linkedlistquestions/RemoveDups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/com/lambdaschool/linkedlistquestions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/lambdaschool/linkedlistquestions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/com/lambdaschool/linkedlistquestions/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/lambdaschool/linkedlistquestions/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/com/lambdaschool/linkedlistquestions/RemoveDups.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/lambdaschool/linkedlistquestions/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/lambdaschool/linkedlistquestions/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/lambdaschool/linkedlistquestions/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/lambdaschool/linkedlistquestions/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/lambdaschool/linkedlistquestions/RemoveDups.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +38,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -85,7 +83,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613008715649</updated>
-      <workItem from="1613008721787" duration="2045000" />
+      <workItem from="1613008721787" duration="4816000" />
+      <workItem from="1613062020581" duration="17000" />
+      <workItem from="1613093963576" duration="655000" />
+      <workItem from="1613184866930" duration="1348000" />
+      <workItem from="1613187565385" duration="923000" />
     </task>
     <servers />
   </component>
@@ -102,5 +104,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
