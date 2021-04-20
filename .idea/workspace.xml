@@ -4,7 +4,6 @@
     <list default="true" id="300a4455-4002-4db5-abec-47e049b28f75" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinkedList/src/com/lambdaschool/linkedlistquestions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/lambdaschool/linkedlistquestions/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/com/lambdaschool/linkedlistquestions/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/lambdaschool/linkedlistquestions/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,7 @@
       <workItem from="1613187565385" duration="2514000" />
       <workItem from="1613272610992" duration="993000" />
       <workItem from="1613338673374" duration="58000" />
-      <workItem from="1618883576744" duration="1207000" />
+      <workItem from="1618883576744" duration="2026000" />
     </task>
     <servers />
   </component>

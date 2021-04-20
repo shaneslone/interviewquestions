@@ -3,6 +3,8 @@ package com.lambdaschool.linkedlistquestions;
 import java.util.HashSet;
 import java.util.Set;
 
+import static com.lambdaschool.linkedlistquestions.Node.removeNode;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -25,17 +27,16 @@ public class Main {
 
 	public static void removeDupes(Node head){
 		Set<Integer> seen = new HashSet<>();
-		Node prev = head;
 		Node cur = head;
 		while (cur != null){
-			Node next = cur.next;
 			if(seen.contains(cur.data)){
-				prev.next = next;
+				removeNode(cur);
 			} else {
 				seen.add(cur.data);
-				prev = cur;
+				cur = cur.next;
 			}
-			cur = next;
 		}
 	}
+
+
 }

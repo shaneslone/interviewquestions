@@ -17,7 +17,7 @@ public class Node {
         n.next = end;
     }
 
-    public void removeNode(Node n){
+    public static void removeNode(Node n){
         n.data = n.next.data;
         n.next = n.next.next;
     }
