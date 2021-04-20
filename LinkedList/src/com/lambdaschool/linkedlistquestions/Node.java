@@ -1,8 +1,5 @@
 package com.lambdaschool.linkedlistquestions;
 
-import java.util.HashSet;
-import java.util.Set;
-
 public class Node {
     Node next = null;
     int data;
@@ -25,23 +22,6 @@ public class Node {
         n.next = n.next.next;
     }
 
-    public void removeDups(){
-        Set<Integer> seen = new HashSet<Integer>();
-        Node prev = this;
-        Node cur = this;
-        while (cur != null){
-            Node next = cur.next;
-            if(seen.contains(cur.data)){
-                prev.next = next;
-                cur = next;
-            } else {
-                seen.add(cur.data);
-                prev = cur;
-                cur = next;
-            }
-        }
-
-    }
     public void print(){
         Node cur = this;
         while(cur != null){

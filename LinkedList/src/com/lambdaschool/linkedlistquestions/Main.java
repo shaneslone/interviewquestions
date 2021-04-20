@@ -1,5 +1,8 @@
 package com.lambdaschool.linkedlistquestions;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -14,13 +17,25 @@ public class Main {
 
 	test.print();
 
-	test.removeDups();
-
-	test.print();
-
-	test.removeNode(test.next);
+	removeDupes((test));
 
 	test.print();
 
     }
+
+	public static void removeDupes(Node head){
+		Set<Integer> seen = new HashSet<>();
+		Node prev = head;
+		Node cur = head;
+		while (cur != null){
+			Node next = cur.next;
+			if(seen.contains(cur.data)){
+				prev.next = next;
+			} else {
+				seen.add(cur.data);
+				prev = cur;
+			}
+			cur = next;
+		}
+	}
 }
