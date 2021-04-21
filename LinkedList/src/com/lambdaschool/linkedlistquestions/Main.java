@@ -9,17 +9,19 @@ public class Main {
 
     public static void main(String[] args) {
 	Node n1 = new Node(9);
-	n1.appendToTail(9);
-	n1.appendToTail(9);
+	n1.appendToTail(8);
+	n1.appendToTail(7);
+	n1.appendToTail(6);
+	n1.appendToTail(5);
 
-	Node n2 = new Node(9);
-	n2.appendToTail(9);
+	Node n2 = new Node(1);
+	n2.appendToTail(2);
+	n2.appendToTail(3);
+	n2.appendToTail(2);
+	n2.appendToTail(1);
 
-	n1.print();
-	n2.print();
-
-	Node sum = sumList(n1, n2);
-	sum.print();
+		System.out.println(palindrome(n1));
+		System.out.println(palindrome(n2));
 
     }
 
@@ -80,6 +82,28 @@ public class Main {
     		currentNode = currentNode.next;
 		}
     	return sum;
+	}
+
+	public static boolean palindrome(Node n1){
+    	Node n2 = reverseList(n1, null);
+    	while(n1 != null){
+    		if(n1.data != n2.data){
+    			return false;
+			}
+    		n1 = n1.next;
+    		n2 = n2.next;
+		}
+    	return true;
+	}
+
+	public static Node reverseList(Node list, Node prev){
+    	if(list == null){
+    		return prev;
+		}
+    	Node cur = new Node(list.data);
+    	cur.next = prev;
+    	list = list.next;
+    	return reverseList(list, cur);
 	}
 
 
