@@ -19,9 +19,16 @@ public class Main {
 	n2.appendToTail(3);
 	n2.appendToTail(2);
 	n2.appendToTail(1);
+	n2.next.next.next.next.next = n1;
 
-		System.out.println(palindrome(n1));
-		System.out.println(palindrome(n2));
+	Node n3 = new Node(5);
+	n3.appendToTail(5);
+	n3.appendToTail(4);
+	n3.appendToTail(7);
+	n3.next.next.next.next = n1;
+
+		Node n4 = intersection(n2, n3);
+        System.out.println(n4.data);
 
     }
 
@@ -105,6 +112,21 @@ public class Main {
     	list = list.next;
     	return reverseList(list, cur);
 	}
+
+	public static Node intersection(Node n1, Node n2){
+        HashSet<Node> nodes = new HashSet<>();
+        while(n1 != null){
+            nodes.add(n1);
+            n1 = n1.next;
+        }
+        while(n2 != null){
+            if(nodes.contains(n2)){
+                return n2;
+            }
+            n2 = n2.next;
+        }
+        return null;
+    }
 
 
 }
