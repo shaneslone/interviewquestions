@@ -19,7 +19,7 @@ public class Main {
 	n2.appendToTail(3);
 	n2.appendToTail(2);
 	n2.appendToTail(1);
-	n2.next.next.next.next.next = n1;
+	n2.next.next.next.next.next = n2.next.next.next;
 
 	Node n3 = new Node(5);
 	n3.appendToTail(5);
@@ -27,7 +27,7 @@ public class Main {
 	n3.appendToTail(7);
 	n3.next.next.next.next = n1;
 
-		Node n4 = intersection(n2, n3);
+		Node n4 = findLoop(n2);
         System.out.println(n4.data);
 
     }
@@ -127,6 +127,30 @@ public class Main {
         }
         return null;
     }
+
+    public static Node findLoop(Node head){
+    	Node fast = head;
+    	Node slow = head;
+
+    	while(fast != null && fast.next != null){
+    		slow = slow.next;
+    		fast = fast.next.next;
+    		if(slow == fast){
+    			break;
+			}
+		}
+
+    	if(fast == null || fast.next == null){
+    		return null;
+		}
+
+    	slow = head;
+    	while(slow != fast){
+    		slow = slow.next;
+    		fast = fast.next;
+		}
+    	return fast;
+	}
 
 
 }
