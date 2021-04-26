@@ -1,6 +1,6 @@
 package com.lambdaschool.stacksandqueues;
 
-public class Animal {
+abstract class Animal {
     private int order;
     protected String name;
 
@@ -16,7 +16,7 @@ public class Animal {
         this.order = order;
     }
 
-    public boolean isOlder(Animal a){
+    public boolean isOlderThan(Animal a){
         return this.order < a.getOrder();
     }
 }

@@ -2,14 +2,16 @@ package com.lambdaschool.stacksandqueues;
 
 public class Main {
     public static void main(String[] args) {
-        Queue<Integer> myQueue = new Queue<>();
-        myQueue.add(15);
-        myQueue.add(17);
-        myQueue.add(20);
+        AnimalQueue animals = new AnimalQueue();
+        animals.enqueue(new Dog("Fido"));
+        animals.enqueue(new Dog("Nasus"));
+        animals.enqueue(new Cat("Nidalee"));
+        animals.enqueue(new Dog("Warwick"));
+        animals.enqueue(new Cat("Rengar"));
 
-        System.out.println(myQueue.isEmpty());
-        System.out.println(myQueue.remove());
-        System.out.println(myQueue.remove());
-        System.out.println(myQueue.peek());
+        System.out.println(animals.dequeueAny().name);
+        System.out.println(animals.dequeueCat().name);
+        System.out.println(animals.dequeueCat().name);
+        System.out.println(animals.dequeueDog().name);
     }
 }
